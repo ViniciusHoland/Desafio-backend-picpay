@@ -49,15 +49,6 @@ public class Transaction {
         super();
     }
 
-    public Transaction(Long id, BigDecimal amount, User sender, User receiver, LocalDateTime timeStamp) {
-        super();
-        this.id = id;
-        this.amount = amount;
-        this.sender = sender;
-        this.receiver = receiver;
-        this.timeStamp = timeStamp;
-    }
-
     public Long getId() {
         return id;
     }
